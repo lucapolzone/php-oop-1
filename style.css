@@ -1,0 +1,13 @@
+table, .table {
+  margin-bottom: 0;
+}
+
+.container {
+  --bs-gutter-x: 0;
+}
+
+
+
+tr:last-of-type td {
+  border-bottom: 0;
+}
