@@ -1,27 +1,8 @@
 <?php
 
-class Production
-{
+require_once __DIR__ . '/Models/production.php';
 
-  public $title;
-  public $language;
-  public $vote;
-
-
-  function __construct(
-    string $title,
-    string $language,
-    int $vote,
-  ) {
-    $this->title = $title;
-    $this->language = $language;
-    $this->vote = $vote;
-  }
-}
-
-$scrubs = new Production('Scrubs', 'English', 9);
-
-$hero = new Production('HERO', 'Chinese', 10);
+require_once __DIR__ . '/Database/db.php';
 
 // var_dump($scrubs);
 // var_dump($hero);
@@ -50,20 +31,14 @@ $productions = [$scrubs, $hero];
 <body>
   <div class="container mx-auto border border-4 rounded mt-5">
     <table class="table table-striped table-warning">
-      <thead>
-        <tr class="table-danger">
-          <th scope="col">Title</th>
-          <th scope="col">Language</th>
-          <th scope="col">Vote</th>
-        </tr>
-      </thead>
+      
+    <?php include __DIR__ . '/Partials/table-head.php'; ?>
+
       <tbody>
         <?php foreach($productions as $production) : ?>
-          <tr>
-            <td><?= $production->title ?></td>
-            <td><?= $production->language ?></td>
-            <td><?= $production->vote ?></td>
-          </tr>
+          
+          <?php include __DIR__ . '/Partials/table-row.php'; ?>
+          
         <?php endforeach; ?>
     </table>
   </div>
