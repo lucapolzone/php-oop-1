@@ -1,6 +1,4 @@
 <?php 
 
-$scrubs = new Production('Scrubs', 'English', 9);
-$hero = new Production('HERO', 'Chinese', 10);
-
-?>
+$scrubs = new Production('Scrubs', 'English', 9, new Genre('Sitcom', 'A sitcom (a shortening of situation comedy, or situational comedy) is a genre of comedy centred on a fixed set of characters who mostly carry over from episode to episode. Sitcoms can be contrasted with sketch comedy, where a troupe may use new characters in each sketch, and stand-up comedy, where a comedian tells jokes and stories to an audience. Sitcoms originated in radio, but today are found mostly on television as one of its dominant narrative forms.'));
+$hero = new Production('HERO', 'Chinese', 10, new Genre('Wuxia', 'Wuxia, which literally means "martial arts and chivalry", is a genre of Chinese fiction concerning the adventures of martial artists in ancient China. Although wuxia is traditionally a form of historical fantasy literature, its popularity has caused it to be adapted for such diverse art forms as Chinese opera, manhua, television dramas, films, and video games'));

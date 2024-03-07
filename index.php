@@ -1,8 +1,11 @@
 <?php
 
-require_once __DIR__ . '/Models/production.php';
+require_once __DIR__ . '/Models/Production.php';
+
+require_once __DIR__ . '/Models/Genre.php';
 
 require_once __DIR__ . '/Database/db.php';
+
 
 // var_dump($scrubs);
 // var_dump($hero);
