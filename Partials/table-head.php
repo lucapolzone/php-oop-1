@@ -5,5 +5,8 @@
     <th scope="col">Vote</th>
     <th scope="col">Genre</th>
     <th scope="col" style="width: 40%">Genre description</th>
+    <th scope="col">Profits</th>
+    <th scope="col">Duration</th>
+    <th scope="col">Seasons</th>
   </tr>
 </thead>

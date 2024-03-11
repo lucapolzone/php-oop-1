@@ -12,10 +12,8 @@ class TVSerie extends Production{
         int $seasons,
     ){
 
-        // calling ancestor's constructor method
         parent::__construct($title, $language, $vote, $genre);
         
-        // descendant attribute assignment
         $this->seasons = $seasons;
     }
 }
