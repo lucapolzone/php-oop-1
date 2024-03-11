@@ -18,3 +18,20 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 ## BONUS 2
 Create una classe `Genre` (gli attributi potrebbero essere <b>nome</b> e <b>descrizione</b>) e fate in modo che la classe Production accetti un genere nel costruttore. Aggiornate le informazioni stampate a schermo con il genere.
 
+<br/><br/>
+
+# Esercizio: PHP OOP (05/03/2024)
+nome repo: `php-oop-1` (stessa repo)
+
+Aggiungete al lavoro di ieri le classi `Movie` e `TVSerie`
+- La classe <b>Movie</b> gestisce due proprietà: `profitti` e `durata`
+- La classe <b>TVSerie</b> gestisce il `numero di stagioni`.
+
+Hey 👀 Se vuoi aggiungere altre proprietà alle due classi, fai pure! Queste sono solo indicazioni.
+
+Facciamo in modo che <b>Movie</b> e <b>TVSerie</b> ereditino le proprietà di base dalla classe <b>Production</b>. <br/>
+Creiamo delle istanze di <b>Movie</b> e </b>TVSerie</b> e stampiamo le informazioni a schermo.
+
+## BONUS
+Facciamo in modo che la classe <b>Production</b> accetti <b>più di un genere</b>
+
