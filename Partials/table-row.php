@@ -8,11 +8,11 @@
     <td><?= $production->profits ?></td>
     <td><?= $production->duration ?></td>
     <td><?= '/' ?></td>
-    <?php else: ?>
-      <td><?= '/' ?></td>
-      <td><?= '/' ?></td>
-      <?php endif ?>
-      <?php if($production instanceof TVSerie): ?>
-        <td><?= $production->seasons ?></td>
-    <?php endif ?>
+  <?php else: ?>
+    <td><?= '/' ?></td>
+    <td><?= '/' ?></td>
+  <?php endif ?>
+  <?php if($production instanceof TVSerie): ?>
+      <td><?= $production->seasons ?></td>
+  <?php endif ?>
 </tr>
